@@ -4,7 +4,7 @@ from timeit import timeit
 import time
 
 interval = 1# Интервал таймера в милисекундах
-array_size = 100 # Размер массива (some changes)
+array_size = 100 # Размер массива
 a = np.zeros([array_size,2], dtype=np.int)
 
 comport = 6
